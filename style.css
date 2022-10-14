@@ -19,11 +19,7 @@ p,li {
 	font-size: 38px;
 	margin: 0 26px;
 }
-@media only screen and (min-width: 992px) {
-	p,li {
-		font-size: 20px;
-	}
-}
+@media only screen and (min-width: 992px) { p,li { font-size: 20px; } }
 
 h1,h2,h3,h4,h5,h6 {
 	color: var(--title);
@@ -48,9 +44,11 @@ a[href]:hover {
 #title {
 	font-size: 80px;
 }
+@media only screen and (min-width: 992px) { #title { font-size: 50px; } }
 #subtitle {
 	font-size: 50px;
 }
+@media only screen and (min-width: 992px) { #subtitle { font-size: 40px; } }
 
 #secret-word {
 	background-color: var(--inactive_fg);
@@ -60,6 +58,7 @@ a[href]:hover {
 	width: clamp(0px, 70%, 800px);
 	margin: 30px auto;
 }
+@media only screen and (min-width: 992px) { #secret-word { font-size: 30px; } }
 
 #submit {
 	background-color: var(--inactive_fg);
@@ -68,4 +67,5 @@ a[href]:hover {
 
 	margin: 30px auto;
 }
+@media only screen and (min-width: 992px) { #submit { font-size: 20px; } }
 
